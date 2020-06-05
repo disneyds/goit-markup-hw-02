@@ -1,0 +1,116 @@
+/* Палитра цветов */
+/* 
+    Основной фон  #FFFFFF;
+    Вторичный фон  #F5F4FA;
+    Футер фон #2F303A;
+    Акцент #2196F3;
+    Иконки по умолчанию #AFB1B8;
+    Основной цвет текста #757575;
+    Вторичный цвет текста #212121;
+    
+*/
+
+:root {
+  --main-backgrond: #ffffff;
+  --secondary-backgrond: #f5f4fa;
+  --accent-collor: #2196f3;
+  --main-text-color: #757575;
+  --secondary-text-color: #212121;
+}
+/* Обнуление */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+address {
+  font-style: inherit;
+}
+body {
+  font-family: 'roboto', sans-serif;
+  color: var(--main-text-color);
+}
+
+/* Header */
+
+header {
+  background-color: var(--main-backgrond);
+}
+
+/* Стиль логотиа */
+.logo {
+  font-family: 'Raleway', sans-serif;
+  color: var(--secondary-text-color);
+  font-weight: 700;
+  font-size: 26px;
+}
+.main-logo {
+  font-family: 'Raleway', sans-serif;
+  color: var(--accent-collor);
+  font-weight: 700;
+  font-size: 26px;
+}
+.logo:hover,
+.logo:focus {
+  text-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    0px 1px 1px rgba(0, 0, 0, 0.12);
+}
+
+/* Стили главной навигации */
+.main-nav {
+  color: var(--secondary-text-color);
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-collor);
+}
+
+.active {
+  color: var(--accent-collor);
+}
+
+/* Стиль аднесса */
+.mail:hover,
+.mail:focus,
+.phone:hover,
+.phone:focus {
+  color: var(--accent-collor);
+}
+
+/* Footer */
+
+.footer-logo {
+  color: #ffffff;
+}
+footer {
+  color: #ffffff;
+  background-color: #2f303a;
+}
+
+.contacts {
+  color: #ffffff;
+  font-size: 14px;
+}
+.subscribe {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.contacts .link {
+  color: rgba(255, 255, 255, 0.6);
+}
+.c-right {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 12px;
+  line-height: 200%;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
