@@ -8,6 +8,7 @@
     Основной цвет текста #757575;
     Вторичный цвет текста #212121;
     
+    
 */
 
 :root {
@@ -33,6 +34,7 @@ address {
 body {
   font-family: 'roboto', sans-serif;
   color: var(--main-text-color);
+  font-size: 14px;
 }
 
 /* Header */
@@ -111,6 +113,148 @@ footer {
   color: rgba(255, 255, 255, 0.4);
   font-size: 12px;
   line-height: 200%;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* main */
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 136%;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero-link {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 187%;
+  color: #ffffff;
+}
+
+.features-item {
+  color: var(--secondary-text-color);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.features-text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 171%;
+
+  letter-spacing: 0.03em;
+}
+/* work */
+
+.work-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.work-item {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+/* team */
+
+.team {
+  background-color: var(--secondary-backgrond);
+}
+.human:hover {
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    0px 1px 1px rgba(0, 0, 0, 0.12);
+}
+
+.human-contacts .link :hover,
+.human-contacts .link :focus {
+  color: var(--accent-collor);
+}
+.team-name {
+  color: var(--secondary-text-color);
+}
+
+/* Company */
+
+.company-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.company-item :hover,
+.company-item :focus {
+  color: var(--accent-collor);
+}
+
+/* portfolio */
+
+.filtr-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 162%;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: var(--secondary-backgrond);
+  color: var(--secondary-text-color);
+}
+
+.filtr-item:hover,
+.filtr-item:focus {
+  color: #ffffff;
+  background-color: var(--accent-collor);
+}
+
+.projects-item {
+  color: var(--secondary-text-color);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 200%;
+  letter-spacing: 0.06em;
+}
+
+.human:hover .human:focus {
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    0px 1px 1px rgba(0, 0, 0, 0.12);
+}
+
+.box-title {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  background-color: rgba(47, 48, 58, 0.8);
+}
+
+.work-title,
+.team-title,
+.company-title {
+  color: var(--secondary-text-color);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
 }
