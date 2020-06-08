@@ -17,6 +17,7 @@
   --accent-collor: #2196f3;
   --main-text-color: #757575;
   --secondary-text-color: #212121;
+  --secondary-white-color: #ffffff;
 }
 /* Обнуление */
 a {
@@ -35,6 +36,11 @@ body {
   font-family: 'roboto', sans-serif;
   color: var(--main-text-color);
   font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+.is-hidden {
+  display: none;
 }
 
 /* Header */
@@ -65,8 +71,9 @@ header {
 /* Стили главной навигации */
 .main-nav {
   color: var(--secondary-text-color);
-  font-weight: bold;
+  font-weight: 500;
   font-size: 14px;
+  letter-spacing: 0.02em;
 }
 
 .link:hover,
@@ -89,19 +96,15 @@ header {
 /* Footer */
 
 .footer-logo {
-  color: #ffffff;
+  color: var(--secondary-white-color);
 }
 footer {
-  color: #ffffff;
+  color: var(--secondary-wight-color);
   background-color: #2f303a;
 }
 
-.contacts {
-  color: #ffffff;
-  font-size: 14px;
-}
 .footer-link {
-  color: #ffffff;
+  color: var(--secondary-white-color);
   background: rgba(255, 255, 255, 0.1);
 }
 .footer-link:hover,
@@ -117,6 +120,9 @@ footer {
 .contacts .link {
   color: rgba(255, 255, 255, 0.6);
 }
+.contacts .link:hover {
+  color: var(--accent-collor);
+}
 .c-right {
   color: rgba(255, 255, 255, 0.4);
   font-size: 12px;
@@ -131,7 +137,7 @@ footer {
 }
 
 .hero-title {
-  color: #ffffff;
+  color: var(--secondary-white-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 136%;
@@ -141,17 +147,18 @@ footer {
 }
 
 .hero-link {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 187%;
-  color: #ffffff;
+  letter-spacing: 0.03em;
+  color: var(--secondary-white-color);
 }
 
 .features-item {
   color: var(--secondary-text-color);
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 114%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -159,25 +166,21 @@ footer {
   font-weight: normal;
   font-size: 14px;
   line-height: 171%;
-
-  letter-spacing: 0.03em;
 }
 /* work */
 
 .work-title {
   font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 117%;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .work-item {
-  color: #ffffff;
+  color: var(--secondary-white-color);
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.2;
   text-align: center;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
@@ -191,12 +194,16 @@ footer {
     0px 1px 1px rgba(0, 0, 0, 0.12);
 }
 
-.human-contacts .link :hover,
-.human-contacts .link :focus {
+.human-contacts .link:hover,
+.human-contacts .link:focus {
   color: var(--accent-collor);
 }
 .team-name {
   color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
 }
 
 /* Company */
@@ -204,13 +211,12 @@ footer {
 .company-title {
   font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 117%;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
-.company-item :hover,
-.company-item :focus {
+.company-item:hover,
+.company-item:focus {
   color: var(--accent-collor);
 }
 
@@ -221,20 +227,19 @@ footer {
   font-size: 16px;
   line-height: 162%;
   text-align: center;
-  letter-spacing: 0.03em;
   background-color: var(--secondary-backgrond);
   color: var(--secondary-text-color);
 }
 
 .filtr-item:hover,
 .filtr-item:focus {
-  color: #ffffff;
+  color: var(--secondary-white-color);
   background-color: var(--accent-collor);
 }
 
 .projects-item {
   color: var(--secondary-text-color);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 200%;
   letter-spacing: 0.06em;
@@ -246,12 +251,11 @@ footer {
 }
 
 .box-title {
-  color: #ffffff;
-  font-weight: bold;
+  color: var(--secondary-white-color);
+  font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.2;
   text-align: center;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   background-color: rgba(47, 48, 58, 0.8);
 }
@@ -260,11 +264,10 @@ footer {
 .team-title,
 .company-title {
   color: var(--secondary-text-color);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.6;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .invisibl {
