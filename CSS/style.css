@@ -339,7 +339,7 @@ header {
 /* features */
 
 .features {
-  padding: 94px 0;
+  padding-top: 94px;
 }
 
 .features-item {
@@ -351,6 +351,10 @@ header {
 }
 
 /* Work */
+
+.work {
+  padding: 94px 0;
+}
 
 .box-title {
   width: 370px;
@@ -401,9 +405,8 @@ header {
 
 /* footer */
 
-.footer .logo {
-  display: inline-block;
-  margin-top: 45px;
+.footer {
+  padding-top: 45px;
 }
 
 .btn-icon {
