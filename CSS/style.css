@@ -54,6 +54,8 @@ body {
   display: none;
 }
 
+/* Стили текста и цвета */
+
 /* Header */
 
 header {
@@ -114,6 +116,10 @@ footer {
   background-color: #2f303a;
 }
 
+.footer-address {
+  color: var(--secondary-white-color);
+}
+
 .footer-link {
   color: var(--secondary-white-color);
   background: rgba(255, 255, 255, 0.1);
@@ -144,7 +150,7 @@ footer {
 
 /* main */
 .hero {
-  background-color: #2f303a;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .hero-title {
@@ -214,7 +220,7 @@ footer {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
-  text-align: center;
+  /* text-align: center; */
 }
 
 /* Company */
@@ -286,11 +292,23 @@ footer {
   color: rgba(255, 255, 255, 0);
 }
 
+/* Блочная модель */
+
 .conteiner {
   width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  outline: 3px solid aqua;
+  padding: 0 15px;
+  margin: 0 auto;
+  /* outline: 3px solid aqua; */
+}
+
+.btn {
+  display: inline-block;
+  min-width: 200px;
+  border: 1px solid transparent;
+  padding: 10px 32px;
+  border-radius: 6px;
+  color: var(--secondary-white-color);
+  background-color: var(--accent-collor);
 }
 
 .no-padding {
@@ -298,4 +316,129 @@ footer {
 }
 .no-margin {
   margin: 0;
+}
+
+/* header */
+
+header {
+  padding: 25px 0;
+}
+
+/* hero */
+
+.hero {
+  text-align: center;
+  padding: 200px 0;
+}
+
+.hero-link {
+  margin-top: 30px;
+  text-align: center;
+}
+
+/* features */
+
+.features {
+  padding: 94px 0;
+}
+
+.features-item {
+  margin-top: 30px;
+}
+
+.features-text {
+  margin-top: 10px;
+}
+
+/* Work */
+
+.box-title {
+  width: 370px;
+  padding: 27px 82px;
+}
+
+.work ul {
+  margin-top: 50px;
+}
+
+/* team */
+
+.team {
+  padding: 94px 0;
+}
+
+.human {
+  width: 270px;
+  text-align: center;
+}
+
+.team > ul {
+  margin-top: 50px;
+}
+
+.human > h3 {
+  margin-top: 30px;
+}
+
+.human > p {
+  margin-top: 10px;
+}
+
+.human > ul {
+  margin: 16px;
+}
+
+/* company */
+
+.company {
+  padding: 94px 0;
+  text-align: center;
+}
+
+.company-list {
+  margin-top: 50px;
+}
+
+/* footer */
+
+.footer .logo {
+  display: inline-block;
+  margin-top: 45px;
+}
+
+.btn-icon {
+  display: inline-block;
+  border: 1px solid transparent;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  border-radius: 50px;
+  color: var(--secondary-white-color);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.btn-icon:hover,
+.btn:focus {
+  background-color: var(--accent-collor);
+}
+
+.contacts {
+  margin-top: 8px;
+}
+.contacts > .link {
+  display: inline-block;
+  margin-top: 9px;
+}
+
+.subscribe {
+  color: var(--secondary-white-color);
+  display: inline-block;
+  margin-top: 57px;
+}
+
+/* c-right */
+
+.c-right {
+  padding: 18px 0 21px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
